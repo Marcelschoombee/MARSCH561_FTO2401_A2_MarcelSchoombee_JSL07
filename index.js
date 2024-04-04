@@ -28,11 +28,13 @@ document.addEventListener('DOMContentLoaded', function () {
       // 🚨 Generate certificate content dynamically
       
       certificateContent.innerHTML = `
-      <h1><strong>Certificate of Achievement</strong><h1>
+      <h1><strong>Certificate of Achievement</strong></h1>
       <p>This is to certify that</p>
       <h3>${studentName}</h3>
-      <h3>${personalMessage}</h3>
-      <h3>Course: ${courseName}</h3>
+      <p>has almost completed the</p>
+      <h3>Couse: ${courseName}</h3>
+      <p>${personalMessage}</p>
+      <img src="logo.png" alt="codespace-logo" style="width: 200px; height: auto;">
     `;
     
       //  Display the modal
